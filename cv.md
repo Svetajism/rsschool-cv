@@ -1,17 +1,19 @@
-![Image](profile-picture.png)
+
+<img src="profile-picture.png" alt="Profile Picture" width="240"/>
+
 # Svetlana Zakharova
 ### Student at RS School | Frontend Developer
 
 ## Contact me
-email: sv.zacharova@gmail.com
-Discord: @svetajism
+email: `sv.zacharova@gmail.com`\
+Discord: `@svetajism`
 
 ## Follow me
-[LinkedIn](https://www.linkedin.com/in/svetajism/)
+[LinkedIn](https://www.linkedin.com/in/svetajism/)\
 [GitHub](https://github.com/j2raison)
 
 ## About me
-Former Desogner (Graphic, Web, Motion) learning to code. I like to solve problems and find beatiful logical solutions.
+Former Designer (*Graphic, Web, Motion*) learning to code. I like to solve problems and find beatiful logical solutions.
 
 ## Skills
 - HTML = 1/10
@@ -30,7 +32,7 @@ function multiply(a, b){
 ## Experience
 
 ### WordPress Developer & Web Designer
-[Online Media about Spain](https://mas34.media/)
+[Online Media about Spain](https://mas34.media/) \
 Oct 2025 - Dec 2025
 - Created responsive web design in Figma and transferred it to
 - Set up the components in Elementor Pro Theme Builder
@@ -38,12 +40,15 @@ Oct 2025 - Dec 2025
 
 ## Education
 
-### RS School
+### Courses
+- **RS School:** JS/FE Pre-School
+- **Yandex.Practicum:** Cross-platform Design
+- **Apple Developer Academy:** Swift UI Development, HIG
 
-
-### Yandex.Practicum
-
-### Apple Developer Academy
+### Higher Education
+- Master's Degree in International Relations | Federico II University
+- Bachelor Degree in Sociocultural Management | Immanuel Kant Baltic Federal University
 
 ## Languages
 ### English - C1
+### Italian - A2
