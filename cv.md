@@ -1,3 +1,4 @@
+![Image](profile-picture.png)
 # Svetlana Zakharova
 ### Student at RS School | Frontend Developer
 
