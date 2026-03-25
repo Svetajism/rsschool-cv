@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://svetajism.github.io/rsschool-cv/cv
+https://svetajism.github.io/rsschool-cv/
