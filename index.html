@@ -3,10 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>Svetlana Zakharova - CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills & Languages</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <img src="assets/profile-picture.png" alt="Profile Picture" width="197"/>
+        <h1>Svetlana Zakharova</h1>
+        <p>Student at RS School | Frontend Developer</p>
+
+        <section id="code example">
+            <pre>
+                <code>
+                    function multiply(a, b){
+                        return a * b;
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>7 years in Design. I am a former Graphic, Web, Motion Designer. Currently <strong>learning coding</strong> because I like to solve problems and logical tasks.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div>
+                <p>Oct 2025 → Dec 2025</p>
+                <h3>WordPress Developer</h3>
+                <a href="https://mas34.media/">Online Media about Spain</a>
+                <ul>
+                <li>Created responsive web design in Figma and transferred it to Wordpress</li>
+                <li>Set up the components in Elementor Pro Theme Builder</li>
+                <li>Code vibing: Used Copilot AI and CodeSnippet widget to implement necessary behaviour of elements through code: php, CSS, JS</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Languages</h2>
+            <ul>
+                <li>
+                <label for="skill-html">HTML</label>
+                <progress id="skill-html" value="3" max='10'>30%</progress>
+                </li>
+                <li>
+                <label for="skill-css">CSS</label>
+                <progress id="skill-css" value="2" max='10'>20%</progress>
+                </li>
+                <li>
+                <label for="skill-javascript">JavaScript</label>
+                <progress id="skill-javascript" value="1" max='10'>10%</progress>
+                </li>
+                <li>
+                <label for="skill-git">Git & Github</label>
+                <progress id="skill-git" value="4" max='10'>40%</progress>
+                </li>
+                <li>🇬🇧 English = C1</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div>
+                <p>Mar 2026 → May 2025</p>
+                <h3>Pre-School Frontend Development</h3>
+                <p>RS School, Online</p>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <div>
+                <div>
+                <img src="assets/envelope.svg" alt="email icon" width="32"/>
+                <a href= "mailto:sv.zacharova@gmail.com">sv.zacharova@gmail.com</a>
+                </div>
+                <div>
+                <img src="assets/discord-logo.svg" alt="discord icon" width="32"/>
+                <span>@Svetajism</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://rs.school/courses/javascript-preschool-ru">
+                <img src="assets/rs-school-logo.svg" alt="RS School logo" height=48>
+            </a>
+        </div>
+        <div>
+             <div>
+                 <img src="assets/github-logo.svg" alt="github icon" width="32"/>
+                 <a href= "https://github.com/Svetajism">@Svetajism</a>
+            </div>
+            <p>2026</p>
+        </div>
+    </footer>
 </body>
 </html>
