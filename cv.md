@@ -1,5 +1,5 @@
 
-<img src="profile-picture.png" alt="Profile Picture" width="240"/>
+<img src="assets/profile-picture.png" alt="Profile Picture" width="240"/>
 
 # Svetlana Zakharova
 ### Student at RS School | Frontend Developer
