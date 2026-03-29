@@ -1,15 +1,247 @@
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('assets/ClashDisplay-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+ 
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/Inter-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
 body {
-    background-color: #FFD400;
+  font-family: 'Inter', sans-serif;
+  background-color: #FFD400;
+  color: #222;
+  font-size: 16px;
+  line-height: 24px;
 }
-
+ 
+/* Nav */
+header {
+  padding: 20px 40px;
+}
+ 
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px 80px;
+}
+ 
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-family: "Clash Display Variable";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+ 
+nav a:hover {
+  text-decoration: underline;
+  opacity: 0.6;
+}
+ 
+/* Main */
 main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 24px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 40px 80px;
+}
+ 
+/* Profile picture */
+main > img {
+  display: block;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+ 
+/* Heading */
+h1 {
+  font-family: 'ClashDisplay', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+ 
+/* Subtitle */
+main > p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+ 
+/* Code block */
+#code-example {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 180px;
+  display: flex;
+}
+ 
+#code-example pre,
+#code-example code {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  white-space: pre;
+}
+ 
+/* Sections */
+section {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 20px 40px;
+  margin-bottom: 180px;
+}
+ 
+/* Section headings */
+h2 {
+  font-family: 'ClashDisplay', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  line-height: 100%;
+  padding-top: 4px;
+}
+ 
+/* Experience */
+section > div p {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #222;
+}
+ 
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+ 
+section a {
+  color: #222;
+  font-size: 14px;
+  transition: color 0.2s ease;
 }
 
-header, footer {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 24px;
+section a:hover {
+  opacity: 0.6;
+}
+ 
+section ul {
+  margin-top: 12px;
+  padding-left: 20px;
+}
+ 
+section ul li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+ 
+/* Skills - progress bars */
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+ 
+#skills li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+ 
+#skills label {
+  width: 100px;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+ 
+progress {
+  appearance: none;
+  width: 160px;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+ 
+progress::-webkit-progress-bar {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+ 
+progress::-webkit-progress-value {
+  background-color: #222;
+  border-radius: 3px;
+}
+ 
+/* Contacts */
+#contacts > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+ 
+#contacts > div > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+ 
+#contacts a,
+#contacts span {
+  font-size: 16px;
+  color: #222;
+}
+ 
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+ 
+footer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+footer > div > div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+footer a {
+  color: #222;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  opacity: 0.6;
+}
+ 
+footer p {
+  font-size: 14px;
 }
