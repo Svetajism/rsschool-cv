@@ -1,3 +1,15 @@
 body {
     background-color: #FFD400;
 }
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+header, footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
